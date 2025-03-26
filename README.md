@@ -13,12 +13,12 @@
 
 ---
 
-## 📖 Introduction
+## Introduction
 This is a **Flask REST API** for managing employees, supporting CRUD operations. It connects to a **MySQL** database to store and manage employee records.
 
 ---
 
-## 🚀 Features
+## Features
 - Add new employees
 - Get all employees
 - Get a specific employee by ID
@@ -27,7 +27,7 @@ This is a **Flask REST API** for managing employees, supporting CRUD operations.
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 - **Backend:** Flask (Python)
 - **Database:** MySQL
 - **ORM:** Flask-MySQLdb
@@ -35,7 +35,7 @@ This is a **Flask REST API** for managing employees, supporting CRUD operations.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 ```
 python_employee_management_api/
 │── com/
@@ -50,7 +50,7 @@ python_employee_management_api/
 
 ---
 
-## 🔧 Installation & Setup
+## Installation & Setup
 ### 1️⃣ **Install Python & MySQL**
 Ensure you have **Python 3.10+** and **MySQL** installed.
 
@@ -69,7 +69,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🎛 Database Configuration
+## Database Configuration
 ### 1️⃣ **Create MySQL Database**
 Login to MySQL and create a database:
 ```sql
@@ -94,7 +94,7 @@ mysql = MySQL(app)
 
 ---
 
-## 🔥 API Endpoints
+## API Endpoints
 | Method | Endpoint               | Description        |
 |--------|------------------------|--------------------|
 | POST   | `/employee`            | Add new employee  |
@@ -113,7 +113,7 @@ python com/app/app.py
 
 ---
 
-## 🧪 Testing the APIs
+## Testing the APIs
 Use **Postman** or `curl` commands:
 
 - **Add Employee:**
@@ -143,7 +143,7 @@ curl -X DELETE http://127.0.0.1:5000/employee/1
 
 ---
 
-## 🎯 Conclusion
+## Conclusion
 You have successfully built a **Flask REST API with MySQL** for employee management. You can extend this project by adding authentication, logging, or a frontend!
 
 Happy Coding! 🚀
